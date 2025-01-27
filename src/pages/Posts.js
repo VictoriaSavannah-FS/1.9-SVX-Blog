@@ -105,12 +105,12 @@ const Posts = () => {
         </div>
       </div>
       {/* Blog P{ost | 5 |1.26 -- API Security! } */}
-      <div className="post-item">
-        <img src={ApiSecuriy} alt="React 101 image" className="post-img" />
-        <div className="post-content">
-          <h2 className="post-title">API Security</h2>
+      <div className="api-post">
+        <img src={ApiSecuriy} alt="React 101 image" className="api-post-img" />
+        <div className="api-post-content">
+          <h2 className="api-post-title">API Security</h2>
           <h3>| API Security 101</h3>
-          <p className="post-pargrphs">
+          <p className="api-post-pargrphs">
             So what's the deal with security and API's? Why is it so important
             to ensure the security of our data? As data and inforamtion is
             transferred across various applications and services, if there isn't
