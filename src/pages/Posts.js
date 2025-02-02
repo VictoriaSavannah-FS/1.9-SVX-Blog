@@ -4,6 +4,7 @@ import blogImage2 from "../imgs/blogImg3.jpg";
 import blogImage3 from "../imgs/blogImg1.jpeg";
 import blogImage4 from "../imgs/blogImg2.jpg";
 import ApiSecuriy from "../imgs/api-security.jpg";
+import Mvc from "../imgs/mvc.jpg";
 
 const Posts = () => {
   return (
@@ -354,6 +355,121 @@ const Posts = () => {
                 users to share their credentials, making it ideal for web
                 applications across platforms.
               </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      {/* Blog P{ost | 6: 2.1 -- MVC Model } */}
+      <div className="api-post">
+        <img src={Mvc} alt="3D style computer image" className="api-post-img" />
+        <div className="api-post-content">
+          <h2 className="api-post-title">MVC Desing Pattern 101</h2>
+          <h3>| What is it?</h3>
+          <p className="api-post-pargrphs">
+            The Model View Controller [MVC] is a well known and common software
+            design pattern that, when implemented, aids web developers in
+            managing complex web applications. It simplifies the development
+            process into three major sections: the Model, the View, and the
+            Controller..
+          </p>
+          <p>
+            Each of these three components handles different aspects of the
+            application's logic, which means that each sectin can be tested and
+            deployed separately. Depending on the size of the application,
+            troubleshooting bugs, refactoring code, and overall maintaining
+            complex and scalable applications can become much easier with the
+            MVC model design approach..
+          </p>
+          <ul>
+            <li>
+              <strong>M : Model</strong>
+              <p>
+                Helps define the Models/ Schema or table of the data structure
+                of the application. This is where parameters or properties of
+                each model's data are defined (such as type, required fields,
+                validation rules, etc.) so they can be used througout the
+                application.
+              </p>
+            </li>
+            <li>
+              <strong>V : View</strong>
+              <p>
+                Defines how that data is displayed. It controls how that data is
+                presented to Users, including the style, layout, and the
+                aesthetics of the MVC model. Each time data is updated, edited,
+                or added, the View ensures those changes are reflected in the
+                UI.
+              </p>
+            </li>
+            <li>
+              <strong>C : Controller</strong>
+              <p>
+                This is where all the logic and actual “brains” of the
+                Application are defined through functions and declarations. The
+                Controller manipulates data from the Models and determines how
+                it should be sent to the View.
+              </p>
+            </li>
+
+            <a
+              className="post-links"
+              href="https://www.youtube.com/watch?v=bQuBlR0T5cc"
+            >
+              MVC Pattern Explained | MVC Tutorial
+            </a>
+            <p>
+              Great video tutorial by PedroTech on the overview of the MVC
+              model. Breaks down all the different components and helps
+              understand the realtionship between each component of the MVC
+              model and how they interact with each other.
+            </p>
+          </ul>
+
+          <h3>| Final Thoughts </h3>
+          <p className="post-pargrphs">
+            When working with web applications, structuring your code properly
+            can make all the difference. The MVC model helps break down
+            applications into smaller, more manageable sections, making them
+            easier to build, test, and scale. By separating logic, design, and
+            data declarations, it keeps our code more organized. Therefore, as
+            the project grows, using this approach can simplify debugging,
+            improve organization, and enhance maintainability over time. You'll
+            definitely be thanking yourself downt the road.
+          </p>
+          <h4 className="post-link-title"> Other Links & Resources</h4>
+          <ul>
+            <li>
+              <a
+                className="post-links"
+                href="https://d1wqtxts1xzle7.cloudfront.net/50526307/MVC-libre.pdf?1480020702=&response-content-disposition=inline%3B+filename%3DModel_View_Controller_MVC_Architecture.pdf&Expires=1738482707&Signature=AnJbdfrtC57-taHZx3JUy1HQ5lNJWU1~MlcK~CGo5SRO1QhMFT4zYiLevWrxBQSDg-E2KfhEWu2eIxu8Z-nZKj-DeCptLDAL2CYRDg1-g7J3orn8L4LBS3WSNCaUk109DlN1JTw9LIBBOapk0ZF51XD9b7MJRmWBEIefr7Bg7sG44MIY0pkUnNjOAD-xr9vFntHsquqhHENW-CdCrT146Cw9nKvF0k16BmARw9wlRoUvbme-XWOD8XqA~FqRLP7yCpWhiQ8lnaOGPP-YzGqWIOK6QM4DS5dJKHkZrB5kO~RfOJWDVadJTsenhk4Rq-1jVI1Iz1mVXPS9ZZWLgqACdA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"
+              >
+                Model-View-Controller (MVC) Architecture Author: John Deacon
+              </a>
+            </li>
+
+            <li>
+              <a
+                className="post-links"
+                href="https://www.ramotion.com/blog/mvc-architecture-in-web-application/"
+              >
+                MVC Architecture: Simplifying Web Application Development
+              </a>
+            </li>
+            <li>
+              <a
+                className="post-links"
+                href="https://www.geeksforgeeks.org/mvc-framework-introduction/"
+              >
+                MVC Framework Introduction
+              </a>
+            </li>
+            <li>
+              <a
+                className="post-links"
+                href="https://developer.mozilla.org/en-US/docs/Glossary/MVC"
+              >
+                MVC | mdn web docs
+              </a>
             </li>
           </ul>
         </div>
